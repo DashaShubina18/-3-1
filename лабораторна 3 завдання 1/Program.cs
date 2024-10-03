@@ -17,7 +17,7 @@ namespace лабораторна_3_завдання_1
             double x = Convert.ToDouble(Console.ReadLine());
             int i = 1;
             double sum = 0;
-            while (i < n)
+            while (i <= n)
             {
                 sum += Math.Pow(-1, i) * (2 * i - 1) / Math.Pow(x, i);
                 i++;
