@@ -10,6 +10,7 @@ namespace лабораторна_3_завдання_1
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
             int n;
             Console.WriteLine("Input n");
             n = Convert.ToInt32(Console.ReadLine());
